@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: white;
+
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: left;
+  height:99vh;
+  opacity:.48;
+}
+
+.hero{
+  width:100%;
+  height: auto;
+  margin:0;
+
+}
+
+.herotop{
+  background-image: url("img/hike.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop2{
+  background-image: url("img/canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop3{
+  background-image: url("img/cookware.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop4{
+  background-image: url("img/deer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop5{
+  background-image: url("img/leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop6{
+  background-image: url("img/path.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.herotop7{
+  background-image: url("img/canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.topofpage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  height: 50px;
+  align-items: center;
+  
+}
+.logo{
+  max-width: 300px;
+  align-content: center;
+}
+.logo_img{
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.search{
+  max-width: 200px;
+  align-content: flex-end;
+  margin-left: auto;
+  margin-right: 15px;
+  
+}
+
+.content{
+  
+}
+.search_img{
+  width: 100%;
+  margin-top: 10px;
+}
+.navigation{
+  position: absolute;
+  width:100%;
+  text-align: center;
+  font-family: serif;
+  opacity:.5;
+}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-right:40px;
+}
+
+a:hover {
+  color:black; 
+  text-decoration: underline;
+  font-weight: bold;
+ }
+  a:active {
+  color:black;
+}
